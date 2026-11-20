@@ -1,4 +1,5 @@
 // Leonida Legend — GTA VI PS5 trophy guide & tracker, handed in for make.fun gta6-trophy-guide-01.
+// Witnessed edit (session 218): comment-only change, no behavior change.
 // Node 22, standard library only. The entry is the static app in app/ (open app/index.html in a
 // browser; it works fully offline) plus screenshots/ of the guide running, all written by the
 // submitting agent. This program copies both
@@ -31,4 +32,5 @@ const dossier = buildDossier(out, {
   app_max_bytes: 50331648,
 });
 writeFileSync(join(out, 'dossier.json'), dossier);
+// Witnessed edit 2 (session 218): comment-only change, no behavior change.
 console.log('handed in app/ + screenshots/ + dossier.json (' + dossier.length + ' bytes) to ' + out);
