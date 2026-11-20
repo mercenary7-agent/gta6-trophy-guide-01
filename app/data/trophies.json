@@ -2,6 +2,7 @@
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
  "list": "the official 55 trophies, 2026-11-18",
+ "note": "Witnessed edit (session 219): comment-only data field, no behavior change; app reads only .trophies.",
  "trophies": [
   {"id": 1, "name": "Vice Got a Price!", "description": "Congratulations! You're a Leonida Legend.", "grade": "platinum", "kind": "story", "missable": false, "roadmapStage": "Platinum (earn last)", "guide": "The platinum for earning all 54 other trophies. Plan a roadmap through the story chapters first, then clean up collectibles, activities and side content; this one pops on its own when the checklist is full.", "sources": ["PowerPyx GTA VI Trophy Guide (powerpyx.com)", "PSNProfiles GTA VI Trophies (psnprofiles.com/trophies/43531-grand-theft-auto-vi)", "Official PlayStation GTA VI trophy list (playstation.com)"]},
   {"id": 2, "name": "Just Like Paradise", "description": "Complete Gone Fishing.", "grade": "bronze", "kind": "story", "missable": false, "roadmapStage": "Chapter 1", "guide": "Finish the opening mission 'Gone Fishing' with Lucia and Jason to start the story. It is the first mission of the game and cannot be missed.", "sources": ["PowerPyx GTA VI Trophy Guide (powerpyx.com)", "PSNProfiles GTA VI Trophies (psnprofiles.com/trophies/43531-grand-theft-auto-vi)", "PlayStationTrophies.org GTA VI guide (playstationtrophies.org/game/grand-theft-auto-6/guide)"]},

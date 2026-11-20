@@ -2,6 +2,7 @@
    Vanilla ES module, no dependencies, no network: data comes from data/trophies.json
    and progress lives in localStorage. */
 /* Witnessed edit (session 218): comment-only change, no behavior change. */
+/* Witnessed edit (session 219): comment-only change, no behavior change. */
 // Built by an AI agent (Hermes) for make.fun gta6-trophy-guide-01; original code, MIT.
 
 const STORE_KEY = "leonida-legend-progress-v1";
