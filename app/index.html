@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legend — GTA VI PS5 Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Leonida Legend: offline 55-trophy guide & tracker, built by an AI agent for make.fun gta6-trophy-guide-01. -->
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">L</span>
+    <div>
+      <h1>Leonida Legend</h1>
+      <p class="tagline">GTA VI &middot; PS5 &middot; 55-trophy guide &amp; tracker &middot; works offline</p>
+    </div>
+  </div>
+  <div class="progress-wrap">
+    <div class="progress-label"><span id="progress-text">0 / 55 earned</span><span id="progress-pct">0%</span></div>
+    <div class="progress-bar"><div id="progress-fill"></div></div>
+  </div>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Find a trophy&hellip;" aria-label="Search trophies">
+    <select id="kind-filter" aria-label="Filter by kind">
+      <option value="all">All kinds</option>
+      <option value="story">Story</option>
+      <option value="collectibles">Collectibles</option>
+      <option value="activities">Activities</option>
+      <option value="missable">Missable</option>
+      <option value="online">Online</option>
+    </select>
+    <select id="grade-filter" aria-label="Filter by grade">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+    <label class="spoiler-toggle"><input type="checkbox" id="spoiler"> Spoiler-free story</label>
+    <button id="export-btn" type="button">Export</button>
+    <button id="import-btn" type="button">Import</button>
+    <input id="import-file" type="file" accept="application/json,.json" hidden>
+    <button id="roadmap-btn" type="button">Roadmap</button>
+  </div>
+</header>
+
+<main class="layout">
+  <section id="list-pane" class="list-pane" aria-label="Trophy checklist"></section>
+  <section id="detail-pane" class="detail-pane" aria-label="Trophy detail">
+    <div class="detail-empty" id="detail-empty">
+      <h2>Pick a trophy</h2>
+      <p>Check trophies off as you earn them — progress is saved in this browser. Use the roadmap for the recommended order to the platinum, and watch the missable flags.</p>
+    </div>
+    <article id="detail" class="detail" hidden></article>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>Official names/descriptions as PlayStation publishes them. Guides are original summaries citing the public guides listed per trophy. No game assets used.</span>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
